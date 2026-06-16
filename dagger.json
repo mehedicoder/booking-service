@@ -2,7 +2,7 @@
   "name": "booking-service",
   "engineVersion": "v0.21.6",
   "sdk": {
-    "source": "java"
+    "source": "go"
   },
   "source": ".dagger"
 }
