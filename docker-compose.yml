@@ -1,0 +1,10 @@
+services:
+  guest-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: booking-service:1.0
+    container_name: booking-service
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
